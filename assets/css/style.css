@@ -3,10 +3,11 @@
     padding: 0;
     margin: 0;
 }
-
+/* body elements */
 body {
     background-color: #d9dcd6;
 }
+
 /* Header elements */
 header {
     padding: 20px;
@@ -41,14 +42,17 @@ header nav ul li {
     margin-left: 25px;
 }
 
+/* anchors */
 a {
     color: #ffffff;
     text-decoration: none;
 }
 
+/* paragraph */
 p {
     font-size: 16px;
 }
+
 /* first image */
 .hero {
     height: 800px;
@@ -56,6 +60,7 @@ p {
     margin-bottom: 25px;
 }
 
+/* floats */
 .float-left {
     float: left;
     margin-right: 25px;
@@ -71,7 +76,7 @@ main {
     display: inline-block;
     margin-left: 20px;
 }
-
+/* aside section of the page */
 .benefits {
     margin-right: 20px;
     padding: 20px;
@@ -102,7 +107,7 @@ main {
     max-width: 150px;
 }
 
-
+/* compressed to one  */
 .box-scaling {
     margin-bottom: 20px;
     padding: 50px;
@@ -112,34 +117,25 @@ main {
     color: #ffffff;
 }
 
-
+/* compressed to one  */
 .box-scaling img {
     max-height: 200px;
 }
 
-
+/*  compressed to one  */
 .box-scaling h2 {
     margin-bottom: 20px;
     font-size: 36px;
 }
 
-.online-reputation-management h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-
-.social-media-marketing h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-
-.footer {
+/* changed to footer*/
+footer {
     padding: 30px;
     clear: both;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     text-align: center;
 }
 
-.footer h2 {
+footer h2 {
     font-size: 20px;
 }
